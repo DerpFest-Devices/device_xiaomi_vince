@@ -23,7 +23,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit some common RevengeOS stuff.
 $(call inherit-product, vendor/derp/config/common.mk)
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := false
 TARGET_DISABLE_POSTRENDER_CLEANUP := true
 
